@@ -137,7 +137,7 @@ class PyTest(TestCommand):
 
 setup(
     name='glove_python',
-    version='0.1.0',
+    version='0.1.1',
     description=('Python implementation of Global Vectors '
                  'for Word Representation (GloVe)'),
     long_description='',
