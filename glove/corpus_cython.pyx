@@ -271,12 +271,12 @@ def construct_cooccurrence_matrix(corpus, dictionary, int supplied,
                     increment_matrix(matrix,
                                      inner_word,
                                      outer_word,
-                                     1.0 / (j - i))
+                                     1)
                 else:
                     increment_matrix(matrix,
                                      outer_word,
                                      inner_word,
-                                     1.0 / (j - i))
+                                     1)
 
     # Create the matrix.
     mat = matrix_to_coo(matrix, len(dictionary))
